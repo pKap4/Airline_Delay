@@ -1,12 +1,12 @@
 from flask import Flask, render_template, request
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import warnings
-warnings.filterwarnings('ignore')
+# import seaborn as sns
+# import warnings
+# warnings.filterwarnings('ignore')
 from joblib import dump, load
-import xgboost as xgb
-from sklearn.ensemble import RandomForestClassifier
+# import xgboost as xgb
+# from sklearn.ensemble import RandomForestClassifier
 
 model = load("rand_for.joblib")
 
