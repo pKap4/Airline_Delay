@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings('ignore')
 from joblib import dump, load
 import xgboost as xgb
-from sklearn.ensemble import RandomForestClassifier
+# from sklearn.ensemble import RandomForestClassifier
 
 model = load("rand_for.joblib")
 
